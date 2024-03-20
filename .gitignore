@@ -1,13 +1,3 @@
-# Data used to train the models
-data/raw/
-data/prepared/
-
-# Evaluation results
-evaluation/
-
-# The models
-model/
-
 ## Python
 .venv/
 

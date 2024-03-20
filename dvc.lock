@@ -28,7 +28,7 @@ stages:
     outs:
     - path: data/prepared
       hash: md5
-      md5: ae574f9f033f6fc17cd0b9c0bb73c287.dir
+      md5: 71096d3548760cbc82b07ecd5797f874.dir
       size: 6619331
       nfiles: 8
   train:
@@ -36,7 +36,7 @@ stages:
     deps:
     - path: data/prepared
       hash: md5
-      md5: ae574f9f033f6fc17cd0b9c0bb73c287.dir
+      md5: 71096d3548760cbc82b07ecd5797f874.dir
       size: 6619331
       nfiles: 8
     - path: src/train.py
